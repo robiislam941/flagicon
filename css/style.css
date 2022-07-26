@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.green{
+    width: 600px;
+    height: 300px;
+    background-color: green;
+    position: relative;
+    display: block;
+}
+.green .red{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 75px;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+}
+h1{
+    color: rgb(38, 38, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.green .fab{
+    width: 150px;
+    position: fixed;
+    top: 18%;
+    right: -105px;
+    border: 1px solid rgb(38, 38, 105);
+    border-radius: 4px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.green .twr{
+    width: 150px;
+    position: fixed;
+    top: 8%;
+    right: -105px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.green .fab:hover{
+    right: -2px;
+}
+.green .twr:hover{
+    right: -2px;
+}
+.social-icon{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 40px 0px;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon li a{
+        display: block;
+        background: rgb(36, 25, 25);
+        font-size: 25px;
+        width: 80px;
+        height: 80px;
+        color: #fff;
+        margin: 0px 15px;
+        line-height: 80px;
+        border-radius: 100%;
+        transition: 0.5s;
+}
+.social-icon li a:hover{
+    background: white;
+    color: rgb(22, 4, 4);
+    border: 1px solid rgb(209, 191, 157);
+}
